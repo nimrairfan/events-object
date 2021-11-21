@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+
+<body>
+    <h1>Javascript Events</h1>
+    <a href="javascript:void(0)" onclick="alertBox()">Show Alert Box</a>
+
+    <div class="mobimages">
+
+        <div> <img src="./images/images.2jpg.jpg" alt="" onclick="image1()">
+            <p>Lenovo</p>
+        </div>
+        <div> <img src="./images/image.jpg" alt="" onclick="image2()">
+            <p> Infinix</p>
+        </div>
+        <div> <img src="./images/image3.webp" alt="" onclick="image3()">
+            <p>Iphone</p>
+        </div>
+        <div> <img src="./images/images4.jpeg" alt="" onclick="image4()">
+            <p>Samsung</p>
+        </div>
+
+
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div>
+        <table>
+            <tr>
+                <th>Index</th>
+                <th>Name</th>
+                <th>Class</th>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>Nimra</td>
+                <td> 8</td>
+                <td><button type="button" class="btn btn-outline-success" onclick="deletebtn1()">Delete</button></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Esha</td>
+                <td> 9</td>
+                <td><button type="button" class="btn btn-outline-info" onclick="deletebtn2()">Delete</button></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Alaya</td>
+                <td> 7</td>
+                <td><button type="button" class="btn btn-outline-danger" onclick="deletebtn3()">Delete</button></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Amal</td>
+                <td> 5</td>
+                <td><button type="button" class="btn btn-outline-info" onclick="deletebtn4()">Delete</button></td>
+            </tr>
+        </table>
+    </div>
+
+    <br> <br> <br>
+
+    <div class="bulbcon">
+        <img src="./images/lady bug.jpg" alt="" onmouseover="bulbtoggle(1,this)" onmouseout="bulbtoggle(0,this)">
+    </div>
+    <br><br><br>
+    <div class="num-con">
+    <p>
+        <span id="number">0</span>
+    </p>
+    <br>
+    <button type="button" class="btn btn-warning" id="btn">Increase</button>
+    <button type="button" class="btn btn-warning" id="btn2">Decrease</button>
+    </div>
+    <br><br><br>
+</body>
+<script src="app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+    integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+    crossorigin="anonymous"></script>
+
+</html>
